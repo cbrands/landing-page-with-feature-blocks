@@ -57,5 +57,21 @@ h2 {
   .hero .logo {
     width: 190px;
     height: calc(39px * 190 / 240); }
-  .hero .mockups {
+  .hero .illustration {
     width: 90%; }
+
+/* ==================
+    Cards
+===================== */
+.cards .card {
+  margin: 10px 50px 10px 50px; }
+  .cards .card img {
+    width: 100%; }
+
+/* ==================
+    Footer
+===================== */
+footer {
+  text-align: left;
+  color: white;
+  background-color: #00252e; }
