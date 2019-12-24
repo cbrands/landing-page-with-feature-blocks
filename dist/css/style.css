@@ -1,13 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  --pink: hsl(322, 100%, 66%);
-  --very-pale-cyan: hsl(193, 100%, 96%);
-  --very-dark-cyan: hsl(192, 100%, 9%);
-  --grayish-blue: hsl(208, 11%, 55%);
-  --pink-transparant: hsla(322, 100%, 66%, 0.3);
-  --grayish-blue-transparant: hsla(208, 11%, 55%, 0.3); }
+  box-sizing: border-box; }
 
 body {
   font-family: 'Open Sans', sans-serif;
