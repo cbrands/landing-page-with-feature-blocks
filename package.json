@@ -1,0 +1,23 @@
+{
+  "name": "landing-page-with-feature-blocks",
+  "version": "1.0.0",
+  "description": "![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbrands/landing-page-with-feature-blocks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbrands/landing-page-with-feature-blocks/issues"
+  },
+  "homepage": "https://github.com/cbrands/landing-page-with-feature-blocks#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
