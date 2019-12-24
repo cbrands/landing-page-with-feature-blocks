@@ -50,9 +50,30 @@ h2 {
     height: calc(39px * 190 / 240);
   }
   
-  .mockups {
+  .illustration {
     width: 90%;
   }
 
 }
 
+/* ==================
+    Cards
+===================== */
+.cards {
+  .card {
+    margin: 10px 50px 10px 50px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+/* ==================
+    Footer
+===================== */
+footer {
+  text-align: left;
+  color: white;
+  background-color: $very-dark-cyan;
+}
