@@ -1,0 +1,22 @@
+.btn {
+  display: block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  width: 80%;
+  border-radius: 30px;
+  padding: 20px 0;
+  background-color: $pink;
+  color: white;
+  margin: 60px auto;
+  box-shadow: 5px 5px 10px $pink-transparant;
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+  width: auto;
+  margin: 0;
+  padding: 6px 40px;
+  box-shadow: 5px 5px 10px $grayish-blue-transparant;
+}

@@ -1,7 +1,7 @@
 Start an sass project with
 ```
 npm init -y
-npm node-sass
+npm -i -D node-sass
 mkdir scss
 mkdir dist
 ```

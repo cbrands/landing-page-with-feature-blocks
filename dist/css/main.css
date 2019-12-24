@@ -1,2 +1,61 @@
+.btn {
+  display: block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  width: 80%;
+  border-radius: 30px;
+  padding: 20px 0;
+  background-color: #ff52bf;
+  color: white;
+  margin: 60px auto;
+  box-shadow: 5px 5px 10px rgba(255, 82, 191, 0.3); }
+
+.btn-white {
+  background-color: white;
+  color: black;
+  width: auto;
+  margin: 0;
+  padding: 6px 40px;
+  box-shadow: 5px 5px 10px rgba(128, 141, 153, 0.3); }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
 body {
-  background: #ebfbff; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center; }
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+/* ==================
+    Hero
+===================== */
+.hero {
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-color: #ebfbff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 20px;
+  line-height: 1.6; }
+  .hero header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 0; }
+  .hero h1 {
+    font-size: 2.4rem;
+    width: 80%;
+    margin: 120px auto 30px auto; }
+  .hero .logo {
+    width: 190px;
+    height: calc(39px * 190 / 240); }
+  .hero .mockups {
+    width: 90%; }
