@@ -61,10 +61,22 @@ h2 {
 ===================== */
 .cards {
   .card {
-    margin: 10px 50px 10px 50px;
-
+    margin: 50px 40px 50px 40px;
+    box-shadow: 0 0 10px $grayish-blue-transparant;
+    border-radius: 20px;
+    padding: 40px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    
     img {
       width: 100%;
+      margin: 80px auto;
+    }
+
+    p {
+      color: $grayish-blue;
+      width: 100%;
+      margin: 40px auto;
     }
   }
 }
