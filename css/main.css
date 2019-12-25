@@ -64,9 +64,19 @@ h2 {
     Cards
 ===================== */
 .cards .card {
-  margin: 10px 50px 10px 50px; }
+  margin: 50px 40px 50px 40px;
+  box-shadow: 0 0 10px rgba(128, 141, 153, 0.3);
+  border-radius: 20px;
+  padding: 40px;
+  letter-spacing: 1px;
+  line-height: 1.6; }
   .cards .card img {
-    width: 100%; }
+    width: 100%;
+    margin: 80px auto; }
+  .cards .card p {
+    color: #808d99;
+    width: 100%;
+    margin: 40px auto; }
 
 /* ==================
     Footer
