@@ -76,4 +76,65 @@ footer {
   text-align: left;
   color: white;
   background-color: $very-dark-cyan;
+  padding: 120px 30px 70px 30px;
+
+  .logo-white {
+    width: 16rem;
+    filter: brightness(0%) invert(1); 
+    margin-bottom: 30px;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-row-gap: 20px;
+  }
+
+  .logo-small {
+    margin-top: 6px;
+  }
+
+  .footer-link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+    margin-top: 1.6rem;
+  }
+  
+  .footer-link:hover,
+  .footer-link:focus {
+    color: $grayish-blue;
+  }
+
+  .social {
+    margin: 4rem auto 0 auto;
+    text-align: center;
+  }
+
+  i {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin: 5px;
+    color: white;
+    font-size: 1rem;
+    transition: color 1s, border-color 1s;
+  }
+
+  i:hover,
+  i:focus {
+    color: $grayish-blue;
+    border-color: $grayish-blue;
+    cursor: pointer;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+  }
 }
