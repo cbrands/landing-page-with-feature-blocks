@@ -50,3 +50,11 @@
   }
 }
 
+@media (min-width: 700px) {
+  .btn {
+    &-pink {
+      width: 40%;
+      margin-left: 0;
+    }
+  }
+}

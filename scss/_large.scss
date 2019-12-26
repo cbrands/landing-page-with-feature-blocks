@@ -1,0 +1,45 @@
+@media (min-width: 700px){
+  body {
+    text-align: left;
+  }
+
+  .hero {
+    background-image: url("../images/bg-hero-desktop.svg");
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+    grid-template-areas: 
+      "header header"
+      "title image"
+      "text image"
+      "button image";
+    padding: 30px 40px;
+    line-height: 1.6;
+
+    header {
+      grid-area: header;
+    }
+  
+    h1 {
+      grid-area: title;
+      width: 100%;
+      margin: 120px 0 30px 0;
+    }
+  
+    .hero-text {
+      grid-area: text;
+    }
+  
+    .btn-pink {
+      grid-area: button;
+      text-align: center;
+    }
+  
+    .illustration {
+      grid-area: image;
+      margin-top: 30px;
+    }
+  }
+
+
+}
