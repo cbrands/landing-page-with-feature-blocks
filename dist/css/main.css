@@ -10,34 +10,34 @@
 
 .btn-white {
   background-color: white;
-  color: black;
+  color: #000;
   width: auto;
   margin: 0;
   padding: 6px 40px;
   box-shadow: 5px 5px 10px rgba(128, 141, 153, 0.3); }
   .btn-white:hover {
-    background-color: #808d99;
-    color: white; }
+    background-color: #00252e;
+    color: #fff; }
 
 .btn-pink {
   width: 80%;
   padding: 20px 0;
   background-color: #ff52bf;
-  color: white;
+  color: #fff;
   box-shadow: 5px 5px 10px rgba(255, 82, 191, 0.3); }
   .btn-pink:hover {
     background-color: white;
-    color: #ff52bf; }
+    color: #000; }
 
 .btn-pink-grey-border {
   width: 80%;
   padding: 20px 0;
   background-color: #ff52bf;
-  color: white;
+  color: #fff;
   box-shadow: 5px 5px 10px rgba(128, 141, 153, 0.3); }
   .btn-pink-grey-border:hover {
     background-color: white;
-    color: #ff52bf; }
+    color: #000; }
 
 * {
   padding: 0;

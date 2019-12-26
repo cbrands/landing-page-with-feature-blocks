@@ -1,0 +1,16 @@
+// Adjust color to background
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @if ($color == $pink) {
+      //normally we would return black but for pink we return white anyway
+      @return #fff;
+    }
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+// @mixin colorbutton ($background) {
+
+// }

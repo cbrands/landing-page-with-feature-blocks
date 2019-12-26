@@ -1,3 +1,5 @@
+@import 'functions';
+
 %btn-shared {
   display: block;
   text-decoration: none;
@@ -13,15 +15,15 @@
   &-white {
     @extend %btn-shared;
     background-color: white;
-    color: black;
+    color: set-text-color(white);
     width: auto;
     margin: 0;
     padding: 6px 40px;
     box-shadow: 5px 5px 10px $grayish-blue-transparant;
 
     &:hover {
-      background-color: $grayish-blue;
-      color: white;
+      background-color: $very-dark-cyan;
+      color: set-text-color($very-dark-cyan);
     }
   }
   
@@ -30,12 +32,12 @@
     width: 80%;
     padding: 20px 0;
     background-color: $pink;
-    color: white;
+    color: set-text-color($pink);
     box-shadow: 5px 5px 10px $pink-transparant;
 
     &:hover {
       background-color: white;
-      color: $pink;
+      color: set-text-color(white);
     }
   }
   
@@ -44,12 +46,12 @@
     width: 80%;
     padding: 20px 0;
     background-color: $pink;
-    color: white;
+    color: set-text-color($pink);
     box-shadow: 5px 5px 10px $grayish-blue-transparant;
 
     &:hover {
       background-color: white;
-      color: $pink;
+      color: set-text-color(white);
     }
   }
 }
