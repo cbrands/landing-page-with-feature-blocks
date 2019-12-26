@@ -1,22 +1,56 @@
-.btn {
+%btn-shared {
   display: block;
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 700;
-  width: 80%;
   border-radius: 30px;
-  padding: 20px 0;
-  background-color: $pink;
-  color: white;
   margin: 60px auto;
-  box-shadow: 5px 5px 10px $pink-transparant;
+  cursor: pointer;
+  transition: color 1s, background-color 2s;
 }
 
-.btn-white {
-  background-color: white;
-  color: black;
-  width: auto;
-  margin: 0;
-  padding: 6px 40px;
-  box-shadow: 5px 5px 10px $grayish-blue-transparant;
+.btn {
+  &-white {
+    @extend %btn-shared;
+    background-color: white;
+    color: black;
+    width: auto;
+    margin: 0;
+    padding: 6px 40px;
+    box-shadow: 5px 5px 10px $grayish-blue-transparant;
+
+    &:hover {
+      background-color: $grayish-blue;
+      color: white;
+    }
+  }
+  
+  &-pink {
+    @extend %btn-shared;
+    width: 80%;
+    padding: 20px 0;
+    background-color: $pink;
+    color: white;
+    box-shadow: 5px 5px 10px $pink-transparant;
+
+    &:hover {
+      background-color: white;
+      color: $pink;
+    }
+  }
+  
+  &-pink-grey-border {
+    @extend %btn-shared;
+    width: 80%;
+    padding: 20px 0;
+    background-color: $pink;
+    color: white;
+    box-shadow: 5px 5px 10px $grayish-blue-transparant;
+
+    &:hover {
+      background-color: white;
+      color: $pink;
+    }
+  }
 }
+
