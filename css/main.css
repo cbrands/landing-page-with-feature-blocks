@@ -1,15 +1,12 @@
-.btn {
+.btn-white, .btn-pink, .btn-pink-grey-border {
   display: block;
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 700;
-  width: 80%;
   border-radius: 30px;
-  padding: 20px 0;
-  background-color: #ff52bf;
-  color: white;
   margin: 60px auto;
-  box-shadow: 5px 5px 10px rgba(255, 82, 191, 0.3); }
+  cursor: pointer;
+  transition: color 1s, background-color 2s; }
 
 .btn-white {
   background-color: white;
@@ -18,6 +15,29 @@
   margin: 0;
   padding: 6px 40px;
   box-shadow: 5px 5px 10px rgba(128, 141, 153, 0.3); }
+  .btn-white:hover {
+    background-color: #808d99;
+    color: white; }
+
+.btn-pink {
+  width: 80%;
+  padding: 20px 0;
+  background-color: #ff52bf;
+  color: white;
+  box-shadow: 5px 5px 10px rgba(255, 82, 191, 0.3); }
+  .btn-pink:hover {
+    background-color: white;
+    color: #ff52bf; }
+
+.btn-pink-grey-border {
+  width: 80%;
+  padding: 20px 0;
+  background-color: #ff52bf;
+  color: white;
+  box-shadow: 5px 5px 10px rgba(128, 141, 153, 0.3); }
+  .btn-pink-grey-border:hover {
+    background-color: white;
+    color: #ff52bf; }
 
 * {
   padding: 0;
