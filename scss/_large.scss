@@ -83,4 +83,45 @@
       left: calc((100% - 600px) / 2);
     }
   }
+
+  footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-column-gap: 80px;
+    grid-template-areas: 
+      "logo . . ."
+      "contact about career social"
+      ". . . copyright";
+
+    .logo-white {
+      grid-area: logo;
+    }
+
+    .contact {
+      grid-area: contact;
+    }
+
+    .about {
+      grid-area: about;
+      margin-top: 0;
+      border: 1px solid red;
+    }
+
+    .career {
+      grid-area: career;
+      margin-top: 0;
+    }
+
+    .social {
+      grid-area: social;
+      text-align: left;
+      margin: 0;
+    }
+
+    .copyright {
+      grid-area: copyright;
+      text-align: left;
+      margin: 0;
+    }
+  }
 }
