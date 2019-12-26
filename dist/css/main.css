@@ -121,9 +121,8 @@ footer {
     color: white;
     transition: color 1s;
     margin-top: 1.6rem; }
-  footer .footer-link:hover,
-  footer .footer-link:focus {
-    color: #808d99; }
+    footer .footer-link:hover, footer .footer-link:focus {
+      color: #808d99; }
   footer .social {
     margin: 4rem auto 0 auto;
     text-align: center; }
@@ -138,11 +137,10 @@ footer {
     color: white;
     font-size: 1rem;
     transition: color 1s, border-color 1s; }
-  footer i:hover,
-  footer i:focus {
-    color: #808d99;
-    border-color: #808d99;
-    cursor: pointer; }
+    footer i:hover, footer i:focus {
+      color: #808d99;
+      border-color: #808d99;
+      cursor: pointer; }
   footer .copyright {
     font-size: 0.8rem;
     margin: 2rem auto 0 auto;

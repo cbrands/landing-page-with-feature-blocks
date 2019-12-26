@@ -134,11 +134,11 @@ footer {
     color: white;
     transition: color 1s;
     margin-top: 1.6rem;
-  }
-  
-  .footer-link:hover,
-  .footer-link:focus {
-    color: $grayish-blue;
+
+    &:hover,
+    &:focus {
+      color: $grayish-blue;
+    }
   }
 
   .social {
@@ -157,13 +157,13 @@ footer {
     color: white;
     font-size: 1rem;
     transition: color 1s, border-color 1s;
-  }
 
-  i:hover,
-  i:focus {
-    color: $grayish-blue;
-    border-color: $grayish-blue;
-    cursor: pointer;
+    &:hover,
+    &:focus {
+      color: $grayish-blue;
+      border-color: $grayish-blue;
+      cursor: pointer;
+    }
   }
 
   .copyright {
