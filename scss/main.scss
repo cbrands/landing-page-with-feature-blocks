@@ -60,6 +60,10 @@ h2 {
     Cards
 ===================== */
 .cards {
+  position: relative;
+  padding-bottom: 250px;
+  padding-top: 50px;
+
   .card {
     margin: 50px 40px 50px 40px;
     box-shadow: 0 0 10px $grayish-blue-transparant;
@@ -79,6 +83,19 @@ h2 {
       margin: 40px auto;
     }
   }
+  .feature-block {
+    font-size: 0.9rem;
+    height: 240px;
+    width: 94%;
+    position: absolute;
+    left: 3%;
+    bottom: -80px;
+    box-shadow: 0 0 10px $grayish-blue-transparant;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: white;
+    z-index: 1;
+  }
 }
 
 /* ==================
@@ -88,7 +105,8 @@ footer {
   text-align: left;
   color: white;
   background-color: $very-dark-cyan;
-  padding: 120px 30px 70px 30px;
+  padding: 200px 30px 70px 30px;
+  line-height: 1.6;
 
   .logo-white {
     width: 16rem;
@@ -104,6 +122,10 @@ footer {
 
   .logo-small {
     margin-top: 6px;
+  }
+
+  .about {
+    margin-top: 80px;
   }
 
   .footer-link {

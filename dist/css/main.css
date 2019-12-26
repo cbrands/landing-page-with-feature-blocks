@@ -63,20 +63,36 @@ h2 {
 /* ==================
     Cards
 ===================== */
-.cards .card {
-  margin: 50px 40px 50px 40px;
-  box-shadow: 0 0 10px rgba(128, 141, 153, 0.3);
-  border-radius: 20px;
-  padding: 40px;
-  letter-spacing: 1px;
-  line-height: 1.6; }
-  .cards .card img {
-    width: 100%;
-    margin: 80px auto; }
-  .cards .card p {
-    color: #808d99;
-    width: 100%;
-    margin: 40px auto; }
+.cards {
+  position: relative;
+  padding-bottom: 250px;
+  padding-top: 50px; }
+  .cards .card {
+    margin: 50px 40px 50px 40px;
+    box-shadow: 0 0 10px rgba(128, 141, 153, 0.3);
+    border-radius: 20px;
+    padding: 40px;
+    letter-spacing: 1px;
+    line-height: 1.6; }
+    .cards .card img {
+      width: 100%;
+      margin: 80px auto; }
+    .cards .card p {
+      color: #808d99;
+      width: 100%;
+      margin: 40px auto; }
+  .cards .feature-block {
+    font-size: 0.9rem;
+    height: 240px;
+    width: 94%;
+    position: absolute;
+    left: 3%;
+    bottom: -80px;
+    box-shadow: 0 0 10px rgba(128, 141, 153, 0.3);
+    border-radius: 20px;
+    padding: 40px;
+    background-color: white;
+    z-index: 1; }
 
 /* ==================
     Footer
@@ -85,7 +101,8 @@ footer {
   text-align: left;
   color: white;
   background-color: #00252e;
-  padding: 120px 30px 70px 30px; }
+  padding: 200px 30px 70px 30px;
+  line-height: 1.6; }
   footer .logo-white {
     width: 16rem;
     filter: brightness(0%) invert(1);
@@ -96,6 +113,8 @@ footer {
     grid-row-gap: 20px; }
   footer .logo-small {
     margin-top: 6px; }
+  footer .about {
+    margin-top: 80px; }
   footer .footer-link {
     display: block;
     text-decoration: none;
