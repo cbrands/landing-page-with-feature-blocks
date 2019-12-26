@@ -230,8 +230,7 @@ footer {
       grid-area: contact; }
     footer .about {
       grid-area: about;
-      margin-top: 0;
-      border: 1px solid red; }
+      margin-top: 0; }
     footer .career {
       grid-area: career;
       margin-top: 0; }
