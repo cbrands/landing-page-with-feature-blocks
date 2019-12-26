@@ -14,16 +14,14 @@
 .btn {
   &-white {
     @extend %btn-shared;
-    background-color: white;
-    color: set-text-color(white);
+    @include colorbutton(white);
     width: auto;
     margin: 0;
     padding: 6px 40px;
     box-shadow: 5px 5px 10px $grayish-blue-transparant;
 
     &:hover {
-      background-color: $very-dark-cyan;
-      color: set-text-color($very-dark-cyan);
+      @include colorbutton($very-dark-cyan);
     }
   }
   
@@ -31,13 +29,11 @@
     @extend %btn-shared;
     width: 80%;
     padding: 20px 0;
-    background-color: $pink;
-    color: set-text-color($pink);
+    @include colorbutton($pink);
     box-shadow: 5px 5px 10px $pink-transparant;
 
     &:hover {
-      background-color: white;
-      color: set-text-color(white);
+      @include colorbutton(white);
     }
   }
   
@@ -45,13 +41,11 @@
     @extend %btn-shared;
     width: 80%;
     padding: 20px 0;
-    background-color: $pink;
-    color: set-text-color($pink);
+    @include colorbutton($pink);
     box-shadow: 5px 5px 10px $grayish-blue-transparant;
 
     &:hover {
-      background-color: white;
-      color: set-text-color(white);
+      @include colorbutton(white);
     }
   }
 }

@@ -11,6 +11,7 @@
   }
 }
 
-// @mixin colorbutton ($background) {
-
-// }
+@mixin colorbutton ($background) {
+  background-color: $background;
+  color: set-text-color($background);
+}
