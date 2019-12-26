@@ -195,4 +195,27 @@ footer {
       text-align: center; }
     .hero .illustration {
       grid-area: image;
-      margin-top: 30px; } }
+      margin-top: 30px; }
+  .cards .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px; }
+    .cards .card:nth-child(even) {
+      grid-template-areas: "image heading" "image text"; }
+    .cards .card:nth-child(odd) {
+      grid-template-areas: "heading image" "text image"; }
+    .cards .card .illustration {
+      display: block;
+      grid-area: image;
+      width: 80%; }
+    .cards .card h2 {
+      align-self: end;
+      grid-area: heading; }
+    .cards .card p {
+      grid-area: text;
+      margin-top: 0; }
+  .cards .feature-block {
+    text-align: center;
+    max-width: 600px;
+    padding: 40px 100px;
+    left: calc((100% - 600px) / 2); } }

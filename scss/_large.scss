@@ -41,5 +41,46 @@
     }
   }
 
+  .cards {
+    .card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 80px;
 
+      &:nth-child(even) {
+        grid-template-areas: 
+        "image heading"
+        "image text";
+      }
+
+      &:nth-child(odd) {
+        grid-template-areas: 
+          "heading image"
+          "text image";
+      }
+
+      .illustration {
+        display: block;
+        grid-area: image;
+        width: 80%;
+      }
+  
+      h2 {
+        align-self: end;
+        grid-area: heading;
+      }
+  
+      p {
+        grid-area: text;
+        margin-top: 0;
+      }
+    }
+
+    .feature-block {
+      text-align: center;
+      max-width: 600px;
+      padding: 40px 100px;
+      left: calc((100% - 600px) / 2);
+    }
+  }
 }
