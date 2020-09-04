@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/cbrands/landing-page-with-feature-blocks#readme",
   "dependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   }
 }
